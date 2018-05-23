@@ -12,7 +12,7 @@ namespace CodeChallenge.Tests
         }
 
         [Fact]
-        public void ReturnNull_With100_120()
+        public void ReturnNull_WithPaidLessThanPrice()
         {
             var price = 120D;
             var paid = 100D;
@@ -23,7 +23,7 @@ namespace CodeChallenge.Tests
         }
 
         [Fact]
-        public void ReturnNull_With100_100()
+        public void ReturnNull_WithPaidEqualPrice()
         {
             var price = 100D;
             var paid = 100D;
